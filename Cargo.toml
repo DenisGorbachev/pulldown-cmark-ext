@@ -2,5 +2,26 @@
 name = "pulldown-cmark-ext"
 version = "0.1.0"
 edition = "2021"
+description = "Extra utilities for pulldown-cmark"
+license = "Apache-2.0 OR MIT"
+homepage = "https://github.com/DenisGorbachev/pulldown-cmark-ext"
+repository = "https://github.com/DenisGorbachev/pulldown-cmark-ext"
+readme = "README.md"
+keywords = ["commonmark", "markdown", "pulldown-cmark", "utils"]
+categories = ["text-processing"]
+
+[package.metadata.details]
+title = "Extra utilities for pulldown-cmark"
+tagline = ""
+summary = ""
+announcement = ""
 
 [dependencies]
+markdown = "1.0.0-alpha.21"
+stub-macro = "0.1.6"
+
+[dev-dependencies]
+indoc = "2.0.5"
+
+[package.metadata.cargo-machete]
+ignored = ["stub_macro"]
